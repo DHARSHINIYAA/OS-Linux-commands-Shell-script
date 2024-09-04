@@ -261,29 +261,31 @@ seq 10 | sed -n '4,6p'
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
-
-
+![image](https://github.com/user-attachments/assets/bbae06fd-6ec9-44d9-b38e-e6d2ba2f7602)
 
 seq 3 | sed '2a hello'
 ## OUTPUT
-
+![image](https://github.com/user-attachments/assets/73dfa940-1577-4bff-8e81-d2d9f40ea204)
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/2074c774-775d-4164-b977-5bd3e247ef59)
 
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/cc398e43-352c-4fa7-9460-87370ef03307)
 
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
-
+![image](https://github.com/user-attachments/assets/16001b5e-7999-42d3-a620-4eb1984bd7d2)
 
 
 sed -n '2,4{s/$/*/;p}' file23
-
+##OUTPUT
+![image](https://github.com/user-attachments/assets/96a600d1-5816-41bf-b376-8c44b9d710b7)
 
 #Sorting File content
 cat > file21
@@ -309,6 +311,7 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
+[image](https://github.com/user-attachments/assets/3bf98749-79d0-4eef-9606-e5e95a6ce935)
 
 
 
